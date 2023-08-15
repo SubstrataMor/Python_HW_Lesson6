@@ -6,3 +6,15 @@
 
 # Ввод: 7 2 5
 # Вывод: 7 9 11 13 15
+
+def f(a1, d, n):
+    m = list()
+    for i in range(n):
+        m.append(a1 + i * d)
+    print(m)
+
+a1 = 7
+d = 2
+n = 5
+
+f(a1, d, n)
